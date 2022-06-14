@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.menu{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #290742;
+}
+
+.menu-options{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.menu-options:hover{
+  font-weight: 700;
+}
+
+.menu-search{
+  display: flex;
+}
+.menu-button{
+  background-color: #9E6DC2;
+  width: 70px;
+  height: 44px;
+  left: 1236px;
+  top: 64px;
+  border-style: none;
+}
+
+.menu-input{
+
+  background-color:#170027 ;
+  border-style: none;
+  width: 230px;
+  height: 44px;
+  left: 1006px;
+  top: 64px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.banner{
+  background-color: #290742;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 6px solid #4FFF4B ;
+
+}
+.content-banner{
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  color:#ffffff
+}
+
+.content-banner h1{
+  color: #9E6DC2;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.content-banner p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #FBF6FF;
+}
+
+.banner-view-more{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.content-banner .banner-view-more a{
+  text-decoration: none;
+  color: #9E6DC2;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.banner-img{
+  padding-left: 80px;
+}
+
+main{
+  font-family: 'Poppins', sans-serif;
+  margin: 50px 136px;
+}
+
+.main-content{
+  background-color: #ffffff;
+  display: flex;
+  gap: 50px;
+ 
+}
+
+.main-content-img{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.title-post{
+  color: #290742;
+  font-size: 24px;
+}
+
+.post-data{
+  font-size: 15px ;
+}
+
+.text-post{
+  font-size: 15px ;
+}
+
+.main-content-text{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post-1{
+  padding-bottom: 23px;
+  border-bottom: 1px solid #F2E7FA ;
+}
+
+.blog{
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+
+.blog-post{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blog-data{
+  font-size: 16px ;
+}
+
+.blog-text{
+  font-size: 16px;
+}
+
+.blog-title{
+  color: #290742;
+  font-size: 24px;
+}
